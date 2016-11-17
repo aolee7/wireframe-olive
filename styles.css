@@ -1,0 +1,138 @@
+body {
+	font-size:16px; 
+	margin: 0;
+
+}
+
+ul {
+	list-style: none;
+}
+
+img {
+	
+	
+}
+
+a{
+	color: white;
+}
+p{
+	font-family: Times;
+	color: white;
+	margin:0;
+}
+
+.special {
+	color: white;
+	margin: 0;
+}
+
+.headings {
+	width: 300px;
+}
+
+.top-section{
+	background-image:url("wallpaper.jpg");
+	background: url(wallpaper.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+
+
+
+li {
+	display: inline-block;
+	padding-right: 40px;
+}
+
+.nav-bar ul{
+	text-align:right;
+	margin: 0;
+	padding-top:15px;
+
+}
+
+.nav-bar{
+	background-color: #ccf1f3;
+	height: 50px;
+	position: fixed;
+	width:100%;
+}
+
+.profile-pic img {
+	border-radius:100%;
+	width:35%;
+	height: auto;
+	max-width:400px;
+	padding-top: 50px;
+}
+
+.profile-pic {
+	width: 500px;
+	margin: 0 auto;
+	text-align: center;
+}
+
+.headings {
+	text-align: center;
+	color: white;
+	margin: 0 auto;
+}
+
+.bio{
+	text-align:center;
+	margin: 0 auto;
+}
+
+.about-me {
+	background-color: pink;
+	width: 100%;
+	text-align: center;
+}
+
+.about-title{
+	padding-top: 50px;
+}
+
+.about-img {
+	display: inline-block;
+	width: 35%;
+	height: 100px;
+
+}
+
+.about-img img {
+	width: 300px;
+	border-radius: 100%;
+}
+.about-body {
+	display: inline-block;
+	width: 50%;
+	vertical-align: top;
+}
+
+@media only screen and (max-width: 650px) {
+	.about-img, .about-body{
+		width: 100%;
+	}
+}
+.red-box {
+	width:800px;
+	position:relative;
+	height:600px;
+	background-color: red;
+}
+
+.blue-box {
+	position:absolute;
+	width: 300px;
+	height:200px;
+	background-color: blue;
+	top:0px;
+	margin-left:4px;
+}
+
+
